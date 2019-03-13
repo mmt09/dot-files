@@ -33,10 +33,11 @@ call vundle#end()
 filetype plugin indent on
 
 set term=screen-256color
-colorscheme PaperColor
-
+" colorscheme PaperColor
+colorscheme matrix
+hi Normal ctermfg=252 ctermbg=none
 set autoindent
-set bg=dark
+" set bg=dark
 set backspace=indent,eol,start
 set expandtab
 set ignorecase
@@ -66,8 +67,10 @@ set undolevels=1000
 set nrformats-=octal
 set vb
 
-highlight ColorColumn ctermbg=black
-set colorcolumn=80
+" highlight ColorColumn ctermbg=black
+" set colorcolumn=80
+highlight ColorColumn ctermbg=none
+set colorcolumn=256
 
 let g:syntastic_python_flake8_args = "--ignore=E501 --max-complexity 10"
 
