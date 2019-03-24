@@ -62,18 +62,22 @@ Xcursor.size:                     0
 ! urxvt*font:             xft:DejaVu Sans Mono:size=10
 ! urxvt*font:             xft: Inconsolata-dz-Powerline:size=10
 
-URxvt.font:     9x15,xft:TerminessTTFNerdFontMono
+URxvt.font:            9x15,xft:TerminessTTFNerdFontMono
+! Urxvt.font:             9x15,xft:Ubuntu Mono derivative Powerline:size=10
+! URxvt.font:             9x15,xft:Inconsolata\ Bold\ for\ Powerline\:size=10
+! URxvt.font:             xft:Inconsolata-dz-Powerline:size=10
+! URxvt.font:             xft:Bitstream Vera Sans Mono:size=10
 
 urxvt*termName:         rxvt
-urxvt*background:       #000000
+! urxvt*background:       #000000
 urxvt*foreground:       #cccccc
 urxvt*scrollBar:        false
 urxvt*perl-lib:         /usr/lib/urxvt/perl/
 urxvt*perl-ext-common:  default,matcher
 urxvt*urlLauncher:      /usr/bin/jumanji
 urxvt*matcher.button:   1
-#urxvt*fading:           50
-#urxvt*fadeColor:        #000000
+! urxvt*fading:           50
+! urxvt*fadeColor:        #000000
 
 Xft*dpi:                96
 Xft*antialias:          true
@@ -103,7 +107,7 @@ URxvt*color14:     #71bebe
 URxvt*color15:     #ffffff
 
 ! URxvt.font:       9x15,xft:TerminessTTFNerdFontMono
-! URxvt.font:       9x15, xft: Inconsolata-dz-Powerline:size=10
+! URxvt.font:       xft: Inconsolata-dz-Powerline:size=10
 
 ! alternative font settings with 'terminus':
 ! URxvt.font:      -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
@@ -120,9 +124,9 @@ URxvt*foreground:                 grey
 URxvt*saveLines:                  5000
 
 ! for 'fake' transparency (without Compton) uncomment the following three lines
-#URxvt*inheritPixmap:            true
-#URxvt*transparent:              true
-#URxvt*shading:                  138
+! URxvt*inheritPixmap:            true
+! URxvt*transparent:              true
+! URxvt*shading:                  138
 
 ! Normal copy-paste keybindings without perls
 URxvt.iso14755:                   false

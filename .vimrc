@@ -34,7 +34,10 @@ filetype plugin indent on
 
 set term=screen-256color
 " colorscheme PaperColor
-colorscheme matrix
+" colorscheme matrix
+" colorscheme tetragrammaton
+colorscheme inkpot
+
 hi Normal ctermfg=252 ctermbg=none
 set autoindent
 " set bg=dark
@@ -78,7 +81,7 @@ let g:syntastic_python_flake8_args = "--ignore=E501 --max-complexity 10"
 let g:ctrlp_map = '<c-p>'
 
 "Airline
-let g:airline_theme='tomorrow'
+" let g:airline_theme='tomorrow'
 let g:airline_powerline_fonts = 1
 
 "NERDTree
