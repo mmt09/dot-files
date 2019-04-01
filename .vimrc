@@ -36,7 +36,8 @@ set term=screen-256color
 " colorscheme PaperColor
 " colorscheme matrix
 " colorscheme tetragrammaton
-colorscheme inkpot
+" colorscheme inkpot
+colorscheme warriors-away
 
 hi Normal ctermfg=252 ctermbg=none
 set autoindent
