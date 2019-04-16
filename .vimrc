@@ -1,3 +1,4 @@
+set pastetoggle=<F2>
 set nocompatible
 
 syntax on
@@ -25,6 +26,8 @@ Plugin 'othree/javascript-libraries-syntax.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'janko-m/vim-test'
 Plugin 'alfredodeza/coveragepy.vim'
+Plugin 'mxw/vim-jsx'
+Plugin 'yannickcr/eslint-plugin-react'
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
@@ -37,7 +40,10 @@ set term=screen-256color
 " colorscheme matrix
 " colorscheme tetragrammaton
 " colorscheme inkpot
-colorscheme warriors-away
+" colorscheme warriors-away
+" colorscheme inori
+" colorscheme d8g_04
+colorscheme gotham256
 
 hi Normal ctermfg=252 ctermbg=none
 set autoindent
@@ -142,7 +148,7 @@ if has("gui_running")
         " set guifont=Inconsolata\ for\ Powerline\ Medium\ 16
         " set guifont=Inconsolata-dz-Powerline\ Medium\ 16
         set guifont=TerminessTTFNerdFontMono\ 16
-        colorscheme iceberg
+        colorscheme gotham256
     endif
 endif
 
